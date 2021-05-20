@@ -2,7 +2,7 @@ package com.qa.controlflow.oop.inheritance;
 
 public class Animal {
 	
-	protected String species;
+	private String species;
 	private String origin;
 	
 	public Animal() {
@@ -22,6 +22,18 @@ public class Animal {
 	public void setSpecies(String species) {
 		this.species = species;
 	}
-}	
+	
+		public String getOrigin() {
+			return origin;
+		}
+	 
+	 
+	 
+	 public void setOrigin(String origin) {
+			this.origin = origin; 
+	 
+}
+	 
+}
 
 

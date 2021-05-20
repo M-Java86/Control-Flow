@@ -11,7 +11,7 @@ public class Runner {
 		Animal a2 = new Duck("Mamma1", "UK");
 		
 		System.out.println(a.equals(a.getSpecies());
-		System.out.println(a.getorigin());
+		System.out.println(a.getOrigin());
 		
 		//everything in java is -a object
 		// - everything inherits from object
