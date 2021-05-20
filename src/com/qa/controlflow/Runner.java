@@ -1,31 +1,18 @@
 package com.qa.controlflow;
 
+import com.qa.controlflow.oop.inheritance.Animal;
+
 public class Runner {
-		//Class scope (members)
-		
-	// field/member - attribute (class level variable)	
-	public static String msg = "hello!";
 	
-		//member-Methods/Behavior
-	public static void main(String[] arg) {
-		// TODO Auto-generated method stub
+	
+	public static void main(String[]  args) {
+		Animal a = new Duck ("Mammal", "UK");
+		Animal a2 = new Duck("Mamma1", "UK");
 		
-		//start();
-		System.out.println(msg);
-		start();
-
+		System.out.println(a.equals(a.getSpecies());
+		System.out.println(a.getorigin());
 	}
-
-	//Methods
-	//accessor, static/non, return type, nameof, parameterlist, scope
-	public static void start() {
-		System.out.println("This is my Starting Message");
-		System.out.println("This is my Starting Message");
+   
+}
 		
-	}
-}	//end class scope 
-
-
-// Class
-	// attributes (Class members)	
-	// methods (class members)
+		
