@@ -8,7 +8,15 @@ public class Runner {
 		// TODO Auto-generated method stub
 		
 		System.out.println(msg);
+		start();
 
 	}
 
+	//Methods
+	//accessor, static/non, return type, nameof, parameterlist, scope
+	public static void start() {
+		System.out.println("This is my Starting Message");
+		System.out.println("This is my Starting Message");
+		
+	}
 }
