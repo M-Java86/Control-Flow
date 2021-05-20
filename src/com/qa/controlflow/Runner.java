@@ -10,6 +10,8 @@ public class Runner {
 		Animal a = new Duck ("Mammal", "UK");
 		Animal a2 = new Duck("Mamma1",  "UK");
 		
+		System.out.println(a);
+		
 		System.out.println(a.getSpecies());
 		System.out.println(a.getOrigin());
 		

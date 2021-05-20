@@ -6,7 +6,7 @@ public class Animal {
 	private String origin;
 	
 	public Animal() {
-		this("Mamma1", "Mamma1");
+		this("Mamma1", "UK");
 		
 	}
 	public Animal(String species, String origin) {
