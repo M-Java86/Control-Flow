@@ -7,21 +7,24 @@ package com.qa.controlflow.javabeginner.operators;
 // '/' -Division
 // '%' -Modulus
 
-public class OperatorsTask {
-	
-	public static void main(String[]  args) {
-		int result; 
-		
-		result = 3 + 10;
-		
-		
-		System.out.println(result);
-		
-	}
+//PEMDAS
+//BIDMAS
 
+	public class OperatorsTask {
+		public static int id;
+		public static String msg = "Hello World";
+		
+		public static void main(String[]  arg) {
+			int result;
+			
+			result = 12;
+			
+			System.out.println(result);
+		}
 	
-	public static void printTthese(int num1, int num2) {
-		System.out.println(num1);
-	}
+		public static int add() {
+			return 5 + 5;
+		}
 }
+	
 	
