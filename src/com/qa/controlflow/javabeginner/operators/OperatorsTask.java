@@ -16,8 +16,9 @@ package com.qa.controlflow.javabeginner.operators;
 		
 		public static void main(String[]  arg) {
 			int result;
+			//11/3) -(8)-BIDMAS Calculation
 			
-			result = 3 + 10 + add(5,7);
+			result = 3 / (3 + 8) -2 * 4;
 			
 			System.out.println(result);
 			//printThese(12, 24);
