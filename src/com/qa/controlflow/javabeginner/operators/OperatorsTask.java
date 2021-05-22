@@ -15,24 +15,16 @@ package com.qa.controlflow.javabeginner.operators;
 		public static String msg = "Hello World";
 		
 		public static void main(String[]  arg) {
-			int result;
-			//11/3) -(8)-BIDMAS Calculation
 			
-			result = 3 / (3 + 8) -2 * 4;
+			int var =5;
 			
-			System.out.println(result);
-			//printThese(12, 24);
+			var += 3;
+			
+			System.out.println(var);
 		}
 		
-		public static void printThese(int num1, int num2) {
-			System.out.println(num1);
-			System.out.println(num2);
-			
-		}
+	}
 		
-		public static int add(int num1, int num2) {
-			return num1 + num2;
-		}
-}
+
 	
 	
