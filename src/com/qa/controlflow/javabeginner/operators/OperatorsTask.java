@@ -15,12 +15,12 @@ package com.qa.controlflow.javabeginner.operators;
 		public static String msg = "Hello World";
 		
 		public static void main(String[]  arg) {
-			//int result;
+			int result;
 			
-			//result = add();
+			result = 3 + 10 + add(5,7);
 			
-			//System.out.println(result);
-			printThese(12, 24);
+			System.out.println(result);
+			//printThese(12, 24);
 		}
 		
 		public static void printThese(int num1, int num2) {
@@ -29,8 +29,8 @@ package com.qa.controlflow.javabeginner.operators;
 			
 		}
 		
-		public static int add() {
-			return 5 + 6;
+		public static int add(int num1, int num2) {
+			return num1 + num2;
 		}
 }
 	
