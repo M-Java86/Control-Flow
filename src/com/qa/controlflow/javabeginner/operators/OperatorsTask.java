@@ -15,15 +15,22 @@ package com.qa.controlflow.javabeginner.operators;
 		public static String msg = "Hello World";
 		
 		public static void main(String[]  arg) {
-			int result;
+			//int result;
 			
-			result = 12;
+			//result = add();
 			
-			System.out.println(result);
+			//System.out.println(result);
+			printThese(12, 24);
 		}
-	
+		
+		public static void printThese(int num1, int num2) {
+			System.out.println(num1);
+			System.out.println(num2);
+			
+		}
+		
 		public static int add() {
-			return 5 + 5;
+			return 5 + 6;
 		}
 }
 	
