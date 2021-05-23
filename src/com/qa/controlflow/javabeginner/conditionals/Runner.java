@@ -11,23 +11,24 @@ public class Runner {
 	
 	//Member - Method has a scope 
 	public static void main(String[] args) {
-		double percent = 65.0;
-		boolean flag = false;
 		
-		System.out.println(percent + "%");
+		// if , else if, else 
+		// switch case 
 		
-		if(percent > passMark) {
-			System.out.println("You have passed!");
-			} else if(percent == passMark  || flag) {
-			System.out.print("You have JUST passed!");
-			}	else {
-			System.out.println("You have failed!");
+		switch(1) {
 		
+		case:1
+		
+			System.out.println("This is one");
 		}
 		
-	}
+		
+				
+			
+			}
+		}
 	
-}
+
 			
 	
 
