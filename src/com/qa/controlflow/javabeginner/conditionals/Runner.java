@@ -6,26 +6,33 @@ public class Runner {
 	// Member - attributes
 	public static int id;
 	public static String msg = "Hello Wolrd";
-	public static double passMark = 70;
+	static double passMark = 75.5;
 	
 	//Member - Method has a scope 
 	public static void main(String[] args) {
-		double percent = 80.0;
+		double percent = 65.5;
 		
-		if(percent > 70 ){ //the "if" keyword in java is accompanied with its own brackets and parenthesis, also
-			//Can't use = here because it's basically saying that passMark is = to 80. == comparison operator	
-			// it included it's own scope. 
-			
-			System.out.println(percent + "%");
-	
+		System.out.println(percent + "%");
 		
+		if(percent >= passMark) {
+			System.out.println("You have passed it!");
+		} else {
+			System.out.println("You have failure!");
+		}
 		
-		System.out.println("You have passed!");
 	}
-	
-	
-	
+}
 
-}
-	
-}
+
+		
+			
+		
+//the "if" keyword in java is accompanied with its own brackets and parenthesis, also
+//Can't use = here because it's basically saying that passMark is = to 80. == comparison operator	
+// it included it's own scope. 
+
+// == equals compare
+// == > Greater than
+// == < Less than 
+// >= Greater than or Equal to
+// <= Less than or Equal to		
