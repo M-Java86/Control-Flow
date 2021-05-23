@@ -16,9 +16,11 @@ public class Runner {
 		
 		if(percent > passMark) {
 			System.out.println("You have passed it!");
-		} else if (percent == passMark) { 
+		} else if (percent ==25.0) { 
 			System.out.print("You have JUST passed!");
-		}   else {
+		} else if(percent == 25.0) {
+		
+	}   else {
 			System.out.println("You have failure!");
 		
 		}
