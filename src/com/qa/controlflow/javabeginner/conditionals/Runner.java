@@ -39,6 +39,18 @@ public class Runner {
 
 }
 
+
+//// logical operators// bitwise// AND 
+//- & (Condition1 & Condition2 & Condition3)// true true - true// 
+//false true - false// true false - false// 
+//false false - false// OR - | (Condition1 | Condition2)//
+//true true - true// false true - true// true false - true// false false - false// logical// 
+//AND - && (Condition1 && Condition2) as soon as one false - ignore both and evaluates "false"// OR -
+// || (Condition1 || Condition2) as soon as one true - ignore both and evaluates "true"
+
+
+
+
 // logical operators 
 // - bitwise 
 // - AND - &(Condition 1 & Condition2)
