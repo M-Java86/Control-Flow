@@ -4,30 +4,44 @@ package com.qa.controlflow.javabeginner.conditionals;
 public class Runner {
 	
 	// Member - attributes
-	public static int id;
-	public static String msg = "Hello Wolrd";
-	static double passMark = 70;
+	//public static int id;
+	//public static String msg = "Hello World";
+	//static double passMark = 70;
 	
 	
 	//Member - Method has a scope 
 	public static void main(String[] args) {
-		
 		// if , else if, else 
 		// switch case 
 		
-		switch(1) {
+	switch(1) {
+		case 1:
+		System.out.println("This number is one");
+		break;
 		
-		case:1
-		
-			System.out.println("This is one");
-		}
-		
-		
-				
+		case 2:
+			System.out.println("This is two");
+			break;
 			
-			}
-		}
+			
+	}
 	
+}
+	
+}
+		
+
+
+	
+
+		
+
+		  
+		  
+		
+	
+		
+		
 
 			
 	
