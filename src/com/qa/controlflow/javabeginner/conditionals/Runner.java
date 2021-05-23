@@ -23,6 +23,10 @@ public class Runner {
 			System.out.println("This is two");
 			break;
 			
+		case 3:
+			System.out.println("this is three");
+			break;
+			
 			
 	}
 	
